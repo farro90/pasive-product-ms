@@ -11,10 +11,10 @@ import java.math.BigDecimal;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class PasiveProduct extends BaseModel {
     private String name;
-    private BigDecimal maintenanceCommission;
-    private BigDecimal transactionCommission;
-    private BigDecimal minimumOpeningAmount;
+    private double maintenanceCommission;
+    private double transactionCommission;
+    private double minimumOpeningAmount;
     private int numLimitMovements;
-    private Boolean allowBusinessClient;
-    private Boolean allowPersonClient;
+    private boolean allowBusinessClient;
+    private boolean allowPersonClient;
 }
