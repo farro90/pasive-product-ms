@@ -15,6 +15,6 @@ public class PasiveProduct extends BaseModel {
     private double transactionCommission;
     private double minimumOpeningAmount;
     private int numLimitMovements;
-    private boolean allowBusinessClient;
-    private boolean allowPersonClient;
+    private Boolean allowBusinessClient;
+    private Boolean allowPersonClient;
 }
